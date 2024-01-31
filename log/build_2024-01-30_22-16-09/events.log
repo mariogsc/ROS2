@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.001480] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.001655] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.097567] (-) TimerEvent: {}
+[0.199267] (-) TimerEvent: {}
+[0.302115] (-) TimerEvent: {}
+[0.421878] (-) TimerEvent: {}
+[0.524960] (-) TimerEvent: {}
+[0.630286] (-) TimerEvent: {}
+[0.731155] (-) TimerEvent: {}
+[0.832861] (-) TimerEvent: {}
+[0.934904] (-) TimerEvent: {}
+[1.039633] (-) TimerEvent: {}
+[1.146158] (-) TimerEvent: {}
+[1.247177] (-) TimerEvent: {}
+[1.348324] (-) TimerEvent: {}
+[1.449397] (-) TimerEvent: {}
+[1.552915] (-) TimerEvent: {}
+[1.654874] (-) TimerEvent: {}
+[1.756319] (-) TimerEvent: {}
+[1.857360] (-) TimerEvent: {}
+[1.959280] (-) TimerEvent: {}
+[2.060620] (-) TimerEvent: {}
+[2.162109] (-) TimerEvent: {}
+[2.263721] (-) TimerEvent: {}
+[2.365225] (-) TimerEvent: {}
+[2.466300] (-) TimerEvent: {}
+[2.567629] (-) TimerEvent: {}
+[2.669304] (-) TimerEvent: {}
+[2.770513] (-) TimerEvent: {}
+[2.873124] (-) TimerEvent: {}
+[2.974578] (-) TimerEvent: {}
+[3.079219] (-) TimerEvent: {}
+[3.180777] (-) TimerEvent: {}
+[3.283979] (-) TimerEvent: {}
+[3.385529] (-) TimerEvent: {}
+[3.492795] (-) TimerEvent: {}
+[3.595024] (-) TimerEvent: {}
+[3.696964] (-) TimerEvent: {}
+[3.800239] (-) TimerEvent: {}
+[3.901576] (-) TimerEvent: {}
+[4.002619] (-) TimerEvent: {}
+[4.104149] (-) TimerEvent: {}
+[4.205242] (-) TimerEvent: {}
+[4.306311] (-) TimerEvent: {}
+[4.407383] (-) TimerEvent: {}
+[4.509359] (-) TimerEvent: {}
+[4.612328] (-) TimerEvent: {}
+[4.713546] (-) TimerEvent: {}
+[4.814451] (-) TimerEvent: {}
+[4.915091] (-) TimerEvent: {}
+[5.016620] (-) TimerEvent: {}
+[5.118068] (-) TimerEvent: {}
+[5.219695] (-) TimerEvent: {}
+[5.320800] (-) TimerEvent: {}
+[5.422419] (-) TimerEvent: {}
+[5.523897] (-) TimerEvent: {}
+[5.625511] (-) TimerEvent: {}
+[5.730891] (-) TimerEvent: {}
+[5.831913] (-) TimerEvent: {}
+[5.932933] (-) TimerEvent: {}
+[6.034535] (-) TimerEvent: {}
+[6.135926] (-) TimerEvent: {}
+[6.237569] (-) TimerEvent: {}
+[6.338669] (-) TimerEvent: {}
+[6.439872] (-) TimerEvent: {}
+[6.540663] (-) TimerEvent: {}
+[6.642152] (-) TimerEvent: {}
+[6.730760] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/mario/ros2/build/my_robot_controller/build', '--no-deps', 'install_data'], 'cwd': '/home/mario/ros2/build/my_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mario', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mario', 'OLDPWD': '/home/mario/ros2/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1042', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mario/ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mario', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mario', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mario-VirtualBox:@/tmp/.ICE-unix/1005,unix/mario-VirtualBox:/tmp/.ICE-unix/1005', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c7820c70_4f7e_411c_9191_8c1fd867a78c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UDH1H2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.732', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mario/ros2/install/my_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mario/ros2/build/my_robot_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mario/ros2/build/my_robot_controller/prefix_override:/home/mario/ros2/install/my_robot_controller/lib/python3.10/site-packages:/home/mario/ros2/build/my_robot_controller:/home/mario/ros2/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.742885] (-) TimerEvent: {}
+[6.846262] (-) TimerEvent: {}
+[6.947843] (-) TimerEvent: {}
+[7.049211] (-) TimerEvent: {}
+[7.150838] (-) TimerEvent: {}
+[7.252324] (-) TimerEvent: {}
+[7.353475] (-) TimerEvent: {}
+[7.454323] (-) TimerEvent: {}
+[7.556522] (-) TimerEvent: {}
+[7.658025] (-) TimerEvent: {}
+[7.759677] (-) TimerEvent: {}
+[7.860964] (-) TimerEvent: {}
+[7.962157] (-) TimerEvent: {}
+[8.063065] (-) TimerEvent: {}
+[8.163784] (-) TimerEvent: {}
+[8.265136] (-) TimerEvent: {}
+[8.366712] (-) TimerEvent: {}
+[8.467351] (-) TimerEvent: {}
+[8.568777] (-) TimerEvent: {}
+[8.669457] (-) TimerEvent: {}
+[8.770852] (-) TimerEvent: {}
+[8.872453] (-) TimerEvent: {}
+[8.973095] (-) TimerEvent: {}
+[9.075620] (-) TimerEvent: {}
+[9.103374] (my_robot_controller) StdoutLine: {'line': b'running develop\n'}
+[9.177086] (-) TimerEvent: {}
+[9.278619] (-) TimerEvent: {}
+[9.379375] (-) TimerEvent: {}
+[9.480167] (-) TimerEvent: {}
+[9.581087] (-) TimerEvent: {}
+[9.681993] (-) TimerEvent: {}
+[9.782731] (-) TimerEvent: {}
+[9.883543] (-) TimerEvent: {}
+[9.984499] (-) TimerEvent: {}
+[10.085772] (-) TimerEvent: {}
+[10.186793] (-) TimerEvent: {}
+[10.287546] (-) TimerEvent: {}
+[10.391151] (-) TimerEvent: {}
+[10.492039] (-) TimerEvent: {}
+[10.592958] (-) TimerEvent: {}
+[10.693861] (-) TimerEvent: {}
+[10.795162] (-) TimerEvent: {}
+[10.896042] (-) TimerEvent: {}
+[10.996799] (-) TimerEvent: {}
+[11.098918] (-) TimerEvent: {}
+[11.199803] (-) TimerEvent: {}
+[11.268421] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[11.269612] (my_robot_controller) StdoutLine: {'line': b'writing my_robot_controller.egg-info/PKG-INFO\n'}
+[11.271840] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to my_robot_controller.egg-info/dependency_links.txt\n'}
+[11.273353] (my_robot_controller) StdoutLine: {'line': b'writing entry points to my_robot_controller.egg-info/entry_points.txt\n'}
+[11.274896] (my_robot_controller) StdoutLine: {'line': b'writing requirements to my_robot_controller.egg-info/requires.txt\n'}
+[11.275866] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to my_robot_controller.egg-info/top_level.txt\n'}
+[11.291675] (my_robot_controller) StdoutLine: {'line': b"reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[11.298446] (my_robot_controller) StdoutLine: {'line': b"writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[11.299939] (-) TimerEvent: {}
+[11.310014] (my_robot_controller) StdoutLine: {'line': b'running build_ext\n'}
+[11.318416] (my_robot_controller) StdoutLine: {'line': b'Creating /home/mario/ros2/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)\n'}
+[11.323283] (my_robot_controller) StdoutLine: {'line': b'Installing draw_circle script to /home/mario/ros2/install/my_robot_controller/lib/my_robot_controller\n'}
+[11.328197] (my_robot_controller) StdoutLine: {'line': b'Installing pid_controller script to /home/mario/ros2/install/my_robot_controller/lib/my_robot_controller\n'}
+[11.340644] (my_robot_controller) StdoutLine: {'line': b'Installing pose_subscriber script to /home/mario/ros2/install/my_robot_controller/lib/my_robot_controller\n'}
+[11.341728] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /home/mario/ros2/install/my_robot_controller/lib/my_robot_controller\n'}
+[11.354843] (my_robot_controller) StdoutLine: {'line': b'\n'}
+[11.374867] (my_robot_controller) StdoutLine: {'line': b'Installed /home/mario/ros2/build/my_robot_controller\n'}
+[11.375537] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[11.400272] (-) TimerEvent: {}
+[11.502109] (-) TimerEvent: {}
+[11.603264] (-) TimerEvent: {}
+[11.621086] (my_robot_controller) CommandEnded: {'returncode': 0}
+[11.705471] (-) TimerEvent: {}
+[11.813203] (-) TimerEvent: {}
+[11.919792] (-) TimerEvent: {}
+[12.023278] (-) TimerEvent: {}
+[12.135183] (-) TimerEvent: {}
+[12.240905] (-) TimerEvent: {}
+[12.345167] (-) TimerEvent: {}
+[12.450078] (-) TimerEvent: {}
+[12.551611] (-) TimerEvent: {}
+[12.649760] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[12.657620] (-) TimerEvent: {}
+[12.658586] (-) EventReactorShutdown: {}

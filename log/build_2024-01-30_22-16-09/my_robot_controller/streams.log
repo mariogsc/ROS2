@@ -1,0 +1,20 @@
+[6.740s] Invoking command in '/home/mario/ros2/build/my_robot_controller': PYTHONPATH=/home/mario/ros2/build/my_robot_controller/prefix_override:/home/mario/ros2/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mario/ros2/build/my_robot_controller/build --no-deps install_data
+[9.102s] running develop
+[11.267s] running egg_info
+[11.268s] writing my_robot_controller.egg-info/PKG-INFO
+[11.271s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[11.272s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[11.274s] writing requirements to my_robot_controller.egg-info/requires.txt
+[11.274s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[11.290s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[11.298s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[11.309s] running build_ext
+[11.317s] Creating /home/mario/ros2/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[11.322s] Installing draw_circle script to /home/mario/ros2/install/my_robot_controller/lib/my_robot_controller
+[11.327s] Installing pid_controller script to /home/mario/ros2/install/my_robot_controller/lib/my_robot_controller
+[11.340s] Installing pose_subscriber script to /home/mario/ros2/install/my_robot_controller/lib/my_robot_controller
+[11.353s] Installing test_node script to /home/mario/ros2/install/my_robot_controller/lib/my_robot_controller
+[11.373s] 
+[11.374s] Installed /home/mario/ros2/build/my_robot_controller
+[11.374s] running install_data
+[11.621s] Invoked command in '/home/mario/ros2/build/my_robot_controller' returned '0': PYTHONPATH=/home/mario/ros2/build/my_robot_controller/prefix_override:/home/mario/ros2/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mario/ros2/build/my_robot_controller/build --no-deps install_data

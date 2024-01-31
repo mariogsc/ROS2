@@ -1,0 +1,21 @@
+[12.117s] Invoking command in '/home/mario/ros2/src/build/my_robot_controller': PYTHONPATH=/home/mario/ros2/src/build/my_robot_controller/prefix_override:/home/mario/ros2/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mario/ros2/src/build/my_robot_controller/build --no-deps install_data
+[16.903s] running develop
+[19.517s] running egg_info
+[19.518s] writing my_robot_controller.egg-info/PKG-INFO
+[19.519s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[19.529s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[19.533s] writing requirements to my_robot_controller.egg-info/requires.txt
+[19.534s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[19.573s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[19.589s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[19.613s] running build_ext
+[19.615s] Creating /home/mario/ros2/src/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[19.632s] Installing draw_circle script to /home/mario/ros2/src/install/my_robot_controller/lib/my_robot_controller
+[19.637s] Installing pose_subscriber script to /home/mario/ros2/src/install/my_robot_controller/lib/my_robot_controller
+[19.640s] Installing test_node script to /home/mario/ros2/src/install/my_robot_controller/lib/my_robot_controller
+[19.645s] Installing turtle_controller script to /home/mario/ros2/src/install/my_robot_controller/lib/my_robot_controller
+[19.646s] Installing turtle_pid script to /home/mario/ros2/src/install/my_robot_controller/lib/my_robot_controller
+[19.650s] 
+[19.658s] Installed /home/mario/ros2/src/build/my_robot_controller
+[19.659s] running install_data
+[20.032s] Invoked command in '/home/mario/ros2/src/build/my_robot_controller' returned '0': PYTHONPATH=/home/mario/ros2/src/build/my_robot_controller/prefix_override:/home/mario/ros2/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mario/ros2/src/build/my_robot_controller/build --no-deps install_data

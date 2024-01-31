@@ -1,0 +1,56 @@
+[108.190s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/mario/ros2']
+[108.191s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/mario/ros2'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f03c37d2fb0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f03c37d2e30>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f03c37d2e30>>)
+[111.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[111.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[111.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[111.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[111.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[111.863s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mario/ros2'
+[111.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2) by extensions ['ignore', 'ignore_ament_install']
+[111.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2) by extension 'ignore'
+[111.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2) by extension 'ignore_ament_install'
+[111.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2) by extensions ['colcon_pkg']
+[111.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2) by extension 'colcon_pkg'
+[111.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2) by extensions ['colcon_meta']
+[111.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2) by extension 'colcon_meta'
+[111.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2) by extensions ['ros']
+[111.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2) by extension 'ros'
+[112.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2) by extensions ['cmake', 'python']
+[112.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2) by extension 'cmake'
+[112.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2) by extension 'python'
+[112.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2) by extensions ['python_setup_py']
+[112.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2) by extension 'python_setup_py'
+[112.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/build) by extensions ['ignore', 'ignore_ament_install']
+[112.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/build) by extension 'ignore'
+[112.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/build) ignored
+[112.542s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/install) by extensions ['ignore', 'ignore_ament_install']
+[112.543s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/install) by extension 'ignore'
+[112.543s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/install) ignored
+[112.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/log) by extensions ['ignore', 'ignore_ament_install']
+[112.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/log) by extension 'ignore'
+[112.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/log) ignored
+[112.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src) by extensions ['ignore', 'ignore_ament_install']
+[112.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src) by extension 'ignore'
+[112.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src) by extension 'ignore_ament_install'
+[112.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src) by extensions ['colcon_pkg']
+[112.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src) by extension 'colcon_pkg'
+[112.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src) by extensions ['colcon_meta']
+[112.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src) by extension 'colcon_meta'
+[112.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src) by extensions ['ros']
+[112.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src) by extension 'ros'
+[112.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src) by extensions ['cmake', 'python']
+[112.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src) by extension 'cmake'
+[112.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src) by extension 'python'
+[112.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src) by extensions ['python_setup_py']
+[112.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src) by extension 'python_setup_py'
+[112.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src/my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[112.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src/my_robot_controller) by extension 'ignore'
+[112.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src/my_robot_controller) by extension 'ignore_ament_install'
+[112.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src/my_robot_controller) by extensions ['colcon_pkg']
+[112.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src/my_robot_controller) by extension 'colcon_pkg'
+[112.704s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src/my_robot_controller) by extensions ['colcon_meta']
+[112.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src/my_robot_controller) by extension 'colcon_meta'
+[112.727s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src/my_robot_controller) by extensions ['ros']
+[112.727s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mario/ros2/src/my_robot_controller) by extension 'ros'
+[113.194s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mario/ros2/src/my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'
+[113.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

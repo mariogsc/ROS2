@@ -1,0 +1,17 @@
+[10.809s] Invoking command in '/home/mario/ros2/build/my_robot_controller': PYTHONPATH=/home/mario/ros2/build/my_robot_controller/prefix_override:/home/mario/ros2/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mario/ros2/build/my_robot_controller/build --no-deps install_data
+[14.122s] running develop
+[16.036s] running egg_info
+[16.038s] writing my_robot_controller.egg-info/PKG-INFO
+[16.039s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[16.042s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[16.044s] writing requirements to my_robot_controller.egg-info/requires.txt
+[16.045s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[16.059s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[16.067s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[16.075s] running build_ext
+[16.077s] Creating /home/mario/ros2/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[16.085s] Installing test_node = my_robot_controller.my_first_node:maindraw_circle = my_robot_controller.draw_circle:mainpose_subscriber script to /home/mario/ros2/install/my_robot_controller/lib/my_robot_controller
+[16.087s] 
+[16.088s] Installed /home/mario/ros2/build/my_robot_controller
+[16.089s] running install_data
+[16.301s] Invoked command in '/home/mario/ros2/build/my_robot_controller' returned '0': PYTHONPATH=/home/mario/ros2/build/my_robot_controller/prefix_override:/home/mario/ros2/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mario/ros2/build/my_robot_controller/build --no-deps install_data

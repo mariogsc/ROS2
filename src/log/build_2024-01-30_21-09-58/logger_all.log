@@ -1,0 +1,117 @@
+[17.777s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[17.778s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f32b45d2620>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f32b49df970>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f32b49df970>>)
+[18.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[18.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[18.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[18.583s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[18.583s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[18.584s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[18.584s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mario/ros2/src'
+[18.584s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[18.585s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[18.585s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[18.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[18.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[18.588s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[18.588s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[18.589s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[18.589s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[18.772s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[18.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[18.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[18.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[18.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[18.779s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[18.782s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[18.783s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[18.788s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[18.788s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[18.793s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[18.794s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[18.796s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[18.796s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[18.797s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[18.797s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'ignore'
+[18.798s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'ignore_ament_install'
+[18.798s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['colcon_pkg']
+[18.799s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'colcon_pkg'
+[18.799s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['colcon_meta']
+[18.800s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'colcon_meta'
+[18.800s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['ros']
+[18.800s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'ros'
+[18.839s] DEBUG:colcon.colcon_core.package_identification:Package 'my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'
+[18.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[18.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[18.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[18.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[18.843s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[20.642s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[20.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[21.257s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/mario/ros2/install
+[21.566s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[21.606s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[23.700s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_args' from command line to 'None'
+[23.701s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_target' from command line to 'None'
+[23.701s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[23.702s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[23.702s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[23.702s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[23.702s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[23.703s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[23.703s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[23.704s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mario/ros2/src/build/my_robot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mario/ros2/src/install/my_robot_controller', 'merge_install': False, 'path': '/home/mario/ros2/src/my_robot_controller', 'symlink_install': True, 'test_result_base': None}
+[24.023s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[24.369s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[24.370s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mario/ros2/src/my_robot_controller' with build type 'ament_python'
+[24.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'ament_prefix_path')
+[24.746s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[24.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mario/ros2/src/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.ps1'
+[24.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mario/ros2/src/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.dsv'
+[24.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mario/ros2/src/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.sh'
+[25.165s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.166s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.060s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mario/ros2/src/my_robot_controller'
+[31.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[41.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mario/ros2/src/build/my_robot_controller': PYTHONPATH=/home/mario/ros2/src/build/my_robot_controller/prefix_override:/home/mario/ros2/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mario/ros2/src/build/my_robot_controller/build --no-deps install_data
+[54.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'pythonpath_develop')
+[54.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mario/ros2/src/build/my_robot_controller' returned '0': PYTHONPATH=/home/mario/ros2/src/build/my_robot_controller/prefix_override:/home/mario/ros2/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mario/ros2/src/build/my_robot_controller/build --no-deps install_data
+[54.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mario/ros2/src/build/my_robot_controller/share/my_robot_controller/hook/pythonpath_develop.ps1'
+[54.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mario/ros2/src/build/my_robot_controller/share/my_robot_controller/hook/pythonpath_develop.dsv'
+[54.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mario/ros2/src/build/my_robot_controller/share/my_robot_controller/hook/pythonpath_develop.sh'
+[55.126s] Level 1:colcon.colcon_core.environment:checking '/home/mario/ros2/src/install/my_robot_controller' for CMake module files
+[55.142s] Level 1:colcon.colcon_core.environment:checking '/home/mario/ros2/src/install/my_robot_controller' for CMake config files
+[55.158s] Level 1:colcon.colcon_core.environment:checking '/home/mario/ros2/src/install/my_robot_controller/lib'
+[55.159s] Level 1:colcon.colcon_core.environment:checking '/home/mario/ros2/src/install/my_robot_controller/bin'
+[55.160s] Level 1:colcon.colcon_core.environment:checking '/home/mario/ros2/src/install/my_robot_controller/lib/pkgconfig/my_robot_controller.pc'
+[55.169s] Level 1:colcon.colcon_core.environment:checking '/home/mario/ros2/src/install/my_robot_controller/lib/python3.10/site-packages'
+[55.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'pythonpath')
+[55.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mario/ros2/src/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.ps1'
+[55.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mario/ros2/src/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.dsv'
+[55.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mario/ros2/src/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.sh'
+[55.589s] Level 1:colcon.colcon_core.environment:checking '/home/mario/ros2/src/install/my_robot_controller/bin'
+[55.590s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_controller)
+[55.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/mario/ros2/src/install/my_robot_controller/share/my_robot_controller/package.ps1'
+[55.956s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mario/ros2/src/install/my_robot_controller/share/my_robot_controller/package.dsv'
+[55.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/mario/ros2/src/install/my_robot_controller/share/my_robot_controller/package.sh'
+[55.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/mario/ros2/src/install/my_robot_controller/share/my_robot_controller/package.bash'
+[55.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/mario/ros2/src/install/my_robot_controller/share/my_robot_controller/package.zsh'
+[56.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mario/ros2/src/install/my_robot_controller/share/colcon-core/packages/my_robot_controller)
+[56.007s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[56.008s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[56.008s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[56.008s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[56.409s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[56.409s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[56.409s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[56.631s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[56.911s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mario/ros2/src/install/local_setup.ps1'
+[56.927s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mario/ros2/src/install/_local_setup_util_ps1.py'
+[56.946s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mario/ros2/src/install/setup.ps1'
+[57.226s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mario/ros2/src/install/local_setup.sh'
+[57.229s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mario/ros2/src/install/_local_setup_util_sh.py'
+[57.232s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mario/ros2/src/install/setup.sh'
+[57.506s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mario/ros2/src/install/local_setup.bash'
+[57.522s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mario/ros2/src/install/setup.bash'
+[57.784s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mario/ros2/src/install/local_setup.zsh'
+[57.793s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mario/ros2/src/install/setup.zsh'
